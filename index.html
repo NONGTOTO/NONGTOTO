@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superhero Height and Weight Distribution</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+	<h1>Superhero Height and Weight Distribution</h1>
+	<div id="plot"></div>
+	<div id="filters">
+		<label for="publisher">Publisher:</label>
+		<select id="publisher">
+			<option value="All">All</option>
+			<option value="Marvel Comics">Marvel Comics</option>
+			<option value="DC Comics">DC Comics</option>
+			<option value="Image Comics">Image Comics</option>
+		</select>
+		<label for="alignment">Alignment:</label>
+		<select id="alignment">
+			<option value="All">All</option>
+			<option value="good">Good</option>
+			<option value="bad">Bad</option>
+			<option value="neutral">Neutral</option>
+		</select>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

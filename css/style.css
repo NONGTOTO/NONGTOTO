@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#plot {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#filters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#filters label {
+	margin-right: 10px;
+}
+
+#filters select {
+	margin-right: 20px;
+}
